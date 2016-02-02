@@ -1,8 +1,29 @@
+* {
+  font-family: avenir;
+}
 body {
+}
+.container {
+  width: 84%;
+  margin-left: 8%;
   background-color: #f2efef;
 }
 header {
   background-color: #b4b4b4;
+  padding: 10px;
+}
+.logo {
+  border-style: solid;
+  border-color: white;
+  color: white;
+  font-family: caslon;
+}
+.login {
+  text-align: right;
+}
+ul{
+  list-style: none;
+  text-align: left;
 }
 footer {
 }
