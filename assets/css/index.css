@@ -12,6 +12,9 @@ header {
   background-color: #b4b4b4;
   padding: 10px;
 }
+.pageTitle {
+  display: inline-block;
+}
 .logo {
   border-style: solid;
   border-color: white;
@@ -19,7 +22,11 @@ header {
   font-family: caslon;
 }
 .login {
-  text-align: right;
+  float: right;
+  display: inline-block;
+}
+ol li{
+  /*first-letter: gray;*/
 }
 ul{
   list-style: none;
@@ -36,6 +43,10 @@ footer {
   border-top-style: solid;
   padding: 10px;
   border-color: gray;
+}
+input{
+  display: block;
+  /*text-align: center;*/
 }
 nav {
   display: inline;
