@@ -1,5 +1,5 @@
 * {
-  font-family: avenir;
+  font-family: verdana;
 }
 body {
 }
@@ -12,18 +12,22 @@ header {
   background-color: #b4b4b4;
   padding: 10px;
 }
-.pageTitle {
-  display: inline-block;
-}
 .logo {
+  display: inline-block;
   border-style: solid;
   border-color: white;
   color: white;
-  font-family: caslon;
+  width: 17px;
+}
+.pageTitle {
+  display: inline-block;
+}
+.headernav {
+  display: inline block;
 }
 .login {
-  float: right;
   display: inline-block;
+  float: right;
 }
 ol li{
   /*first-letter: gray;*/
@@ -34,6 +38,9 @@ ul{
   font-size: 12px;
   color: gray;
 }
+.lastLi{
+  list-style: none;
+}
 .listlinks{
   font-size: 12px;
   color: gray;
@@ -43,10 +50,6 @@ footer {
   border-top-style: solid;
   padding: 10px;
   border-color: gray;
-}
-input{
-  display: block;
-  /*text-align: center;*/
 }
 nav {
   display: inline;
